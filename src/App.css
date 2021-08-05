@@ -5,12 +5,18 @@ body {
   }
 
   .valide {
+    padding: 10px 40px;
+    border-radius: 10%;
     background-color: #5BE881;
   }
   .rejected {
+    padding: 10px 40px;
+    border-radius: 10%;
     background-color: #FF0000;
   }
   .on-validation {
+    padding: 10px 15px;
+    border-radius: 10px;
     background-color: #FDB64D;
   }
   .fa-trash {

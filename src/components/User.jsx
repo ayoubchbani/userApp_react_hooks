@@ -21,7 +21,7 @@ const User= ({user})=> {
            <> 
                 <td>{user.id}</td>
                 <td>{user.createdDate}</td>
-                <td> <button className={color}>{user.status}</button> </td>
+                <td > <span className={color}>{user.status} </span></td>
                 <td>{user.firstName}</td>
                 <td>{user.lastName}</td>
                 <td>{user.userName}</td>
